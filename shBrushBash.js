@@ -24,7 +24,7 @@
 		var keywords =	'if fi then elif else for do done until while break continue case function return in eq ne ge le Exec';
 		var commands =  'alias apropos awk basename bash bc bg builtin bzip2 cal cat cd cfdisk chgrp chmod chown chroot' +
 						'cksum clear cmp comm command cp cron crontab csplit cut date dc dd ddrescue declare df ' +
-						'diff diff3 dig dir dircolors dirname dirs du echo egrep eject enable env ethtool eval ' +
+						'diff diff3 dig dir dircolors dirname dirs du echo egrep eject enable chroot ethtool eval ' +
 						'exec exit expand export expr false fdformat fdisk fg fgrep file find fmt fold format ' +
 						'free fsck ftp gawk getopts grep groups gzip hash head history hostname id ifconfig ' +
 						'import install join kill less let ln local locate logname logout look lpc lpr lprint ' +
@@ -36,7 +36,7 @@
 						'times touch top traceroute trap tr true tsort tty type ulimit umask umount unalias ' +
 						'uname unexpand uniq units unset unshar useradd usermod users uuencode uudecode v vdir ' +
 						'vi watch wc whereis which who whoami Wget xargs yes update-initramfs update-grub ' +
-						'grub-install apt-get chroot epiphany'
+						'grub-install apt-get epiphany'
 						;
 
 		this.regexList = [
